@@ -1,0 +1,49 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Atomic Design Example, Redux, Local State, proper props/state management.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-kingno21:kingno21/atomic-design-example.git"
+  },
+  "author": "kingno21",
+  "email": "kingno21@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-typescript": "^7.1.0",
+    "@storybook/addon-a11y": "^4.0.9",
+    "@storybook/addon-actions": "^4.0.9",
+    "@storybook/addon-knobs": "^4.0.9",
+    "@storybook/addon-links": "^4.0.9",
+    "@storybook/addons": "^4.0.9",
+    "@storybook/cli": "^4.0.9",
+    "@storybook/react": "^4.0.9",
+    "@types/lodash": "^4.14.118",
+    "@types/next": "^7.0.5",
+    "@types/react": "^16.7.7",
+    "@types/react-dom": "^16.0.10",
+    "@types/storybook__react": "^4.0.0",
+    "@zeit/next-typescript": "^1.1.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-next": "^1.2.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.1.6"
+  }
+}
