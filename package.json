@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Atomic Design Example, Redux, Local State, proper props/state management.",
   "main": "index.js",
+  "keywords": ["next", "nextjs", "typescript", "storybook", "starter"],
   "scripts": {
     "dev": "next",
     "test": "echo \"Error: no test specified\" && exit 1",
